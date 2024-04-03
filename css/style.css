@@ -1,0 +1,103 @@
+/* Reset de styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.title {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 10%;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    margin-bottom: 40px; /* Augmentation de l'espace entre les projets */
+    overflow: hidden; /* Pour cacher l'image au départ */
+    position: relative;
+    cursor: pointer; /* Changement de curseur pour indiquer l'interactivité */
+    height: 500px; /* Hauteur du projet augmentée */
+}
+
+.project-info {
+    position: relative;
+    width: 100%; /* Largeur de l'image ajustée */
+    height: 100%;
+    z-index: 2; /* Assurez-vous que le carré du titre est devant l'image */
+}
+
+.title-square {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Largeur du carré du titre augmentée */
+    height: 100%;
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    transition: transform 0.5s ease; /* Animation de transition */
+}
+
+.project-image {
+    position: absolute;
+    top: 0;
+    width: 70%; /* Largeur de l'image ajustée à 70% */
+    height: 100%;
+    object-fit: cover; /* Ajustement de la taille de l'image */
+    transition: opacity 0.5s ease; /* Transition de l'opacité seulement */
+    opacity: 0; /* L'image est initialement transparente */
+}
+
+
+.project:hover .title-square {
+    transform: translateX(235%); /* Déplacer le carré du titre vers la droite */
+}
+
+
+.project:hover .project-image {
+    opacity: 1; /* L'image devient opaque lorsqu'elle est visible */
+}
+
+/* Ajoutez ici d'autres styles pour personnaliser votre portfolio */
