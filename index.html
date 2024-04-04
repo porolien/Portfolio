@@ -1,124 +1,228 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votre Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Aurélien Tavernier</h1>
-       <!-- <p>Introduction brève</p> -->
-        <nav>
-            <ul>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<title>Aurelien Tavernier </title>
+  <!-- aos cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- google fonts-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
 
-    <section id="about">
-        <div class="title">
-            <h2>À propos de moi</h2>
-            <p>Je suis un développeur en jeu vidéo, je peux aussi faire du game design.</p>
-        </div>
-    </section>
+<body class="body">
+  <div id="preloader"></div>
+  <script>
+    
+    </script>
+    
+  <header>
 
-    <section id="portfolio">
-        <div class="title">
-            <h2>Portfolio</h2>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Deliveresque</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/Deliver.png" alt="Image Projet 1">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Early Access</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/earlyAccess.png" alt="Image Projet 2">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Fourmis</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/Forumis.png" alt="Image Projet 1">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">FunBus</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/funBus.png" alt="Image Projet 2">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Les aventures gourmandes de Martin</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/Martin.png" alt="Image Projet 1">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Minigames</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/Minii.png" alt="Image Projet 2">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Space Hunter</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/spaceh.png" alt="Image Projet 1">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Vaisseau évolutif</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/vaisseau.png" alt="Image Projet 2">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">Roots Life</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/Capture d'écran rooot tel.png" alt="Image Projet 2">
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-info">
-                <div class="title-square">FPS Microgame</div>
-            </div>
-            <div class="project-image">
-                <img src="Images/FPS.png" alt="Image Projet 2">
-            </div>
-        </div>
+    <div class="navbar" id="navbar">
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              &#60;/Home&#62;
+            </a>
+          </li>
+
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              &#60;/Outils&#62;
+            </a>
+          </li>
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="projects menu button">
+              &#60;/Projects&#62;
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    </div>
+  </header>
 
-        <!-- Ajoutez ici vos projets -->
-    </section>
+  <main>
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Coordonnées de contact...</p>
+      <div class="text-content">
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">A</p>
+          <p class="jello">u</p>
+          <p class="jello">r</p>
+          <p class="jello">e</p>
+          <p class="jello">l</p>
+          <p class="jello">i</p>
+          <p class="jello">e</p>
+          <p class="jello">n</p>
+          &nbsp;
+          <p class="jello">T</p>
+          <p class="jello">a</p>
+          <p class="jello">v</p>
+          <p class="jello">e</p>
+          <p class="jello">r</p>
+          <p class="jello">n</p>
+          <p class="jello">i</p>
+          <p class="jello">e</p>
+          <p class="jello">r</p>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          Le plus gros suceur de bite depuis 2001<br />
+        </p>
+      </div>
+     
     </section>
+    <section class="skills-section-container" id="skills">
+      <div class="skills-section">
+        <div class="frontend-dev-section">
+          <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
+            aria-label="les z'outils">
+            Mes z'outils
+          </h3>
+          <ul class="tech-stack-wrapper">
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/Unreallogo.png" alt="Unreal skill" class="tech-stack-logo" />
+              <span class="tooltip">UNREAL</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/unitylogo.png" alt="Unity skill" class="tech-stack-logo" />
+              <span class="tooltip">UNITY</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/htmllogo.png" alt="Html skill" class="tech-stack-logo" />
+              <span class="tooltip">HTML</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/csslogo.png" alt="css skill" class="tech-stack-logo" />
+              <span class="tooltip">CSS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/jslogo.png" alt="js skill" class="tech-stack-logo" />
+              <span class="tooltip">JS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/githublogo.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">GITHUB</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/cpplogo.png" alt="c++ language skill" class="tech-stack-logo" />
+              <span class="tooltip">C++</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/csharplogo.png" alt="c# language skill" class="tech-stack-logo" />
+              <span class="tooltip">C#</span>
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="projects-section-container" id="projects">
+      <div class="frontend-dev-section">
+        <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
+          aria-label="les z'outils">
+          Mes Projets
+        </h3>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Deliveresque</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/Deliver.png" alt="Image Projet 1">
+        </div>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Early Access</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/earlyAccess.png" alt="Image Projet 2">
+        </div>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Fourmis</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/Forumis.png" alt="Image Projet 1">
+        </div>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">FunBus</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/funBus.png" alt="Image Projet 2">
+        </div>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Les aventures gourmandes de Martin</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/Martin.png" alt="Image Projet 1">
+        </div>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Minigames</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/Minii.png" alt="Image Projet 2">
+        </div>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Space Hunter</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/spaceh.png" alt="Image Projet 1">
+        </div>
+     </div>
+     <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Vaisseau évolutif</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/vaisseau.png" alt="Image Projet 2">
+        </div>
+     </div>
+      <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">Roots Life</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/Capture d'écran rooot tel.png" alt="Image Projet 2">
+        </div>
+     </div>
+     <div class="project" data-aos="fade-up">
+        <div class="project-info">
+            <div class="title-square">FPS Microgame</div>
+        </div>
+        <div class="project-image">
+            <img src="src/png/FPS.png" alt="Image Projet 2">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
